@@ -71,39 +71,129 @@
 
 .body{
     width: 100%;
-	height: 90vh;
+	height: 160vh;
 	/* display: flex; */
 	justify-content: space-around;
 	align-items: center;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     
 }
 
 
 
 /* <---------------------------------------> */
-.contactInfo{
-    color: #fff;
-}
-.contactInfo h3{
-	font-size: 40px;
-    /* font-weight: bold; */
+.headline{
+    height: 500px;
+    background-image: url(/assets/images/About.jpg);  
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
-    margin-top: 50px;
-    color: #212121;
-}
-.contactInfo h1{
-	font-size: 70px;
-    /* font-weight: bold; */
-    text-align: center;
+    padding: 160px;
     
-    /* margin-top: 50px; */
-    color: #212121;
 }
-.contactInfo h2{
-   
-    padding-left: 30px;
-    padding-top: 50px;
+.headline h3{
+    font-size: 100px;
+    font-weight: bold;
+}
+.aboutMain{
+    margin: 30px;
+    padding: 20px;
+    color: rgb(7, 7, 7);
+}
+.aboutMain h2{
+    color: orangered;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.aboutMain h1{
+    color: #212121;
+    font-weight: bold;
+}
+.aboutMain p{
+    font-size: 20px;
+}
+.aboutList{
+     margin: 30px;
+     padding: 20px;
+}
+.aboutList h2{
+    color: orangered;
+    padding: 10px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.aboutList p{
+    font-size: 20px;
+}
+.img-box{
+    padding: 30px;
+    margin: 50px;
+    
+}
+.pic1{
+    width: 280px;
+    height: 320px;
+    background-color: #000;
+    border-radius: 30px;
+    float: right;
+    margin-right: -150px;
+    margin-top: -35px;
+    background-image: url(/assets/images/pic1.jpg);  
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    
+}
+.pic1:hover{
+    transform: scale(1.04);
+}
+.pic2{
+    width: 280px;
+    height: 320px;
+    background-color: #000;
+    border-radius: 30px;
+    float: left;
+    margin-top: 130px;
+    margin-left: 55px;
+    background-image: url(/assets/images/pic2.jpg);  
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+.pic2:hover:hover{
+    transform: scale(1.04);
+}
+
+.pic3{
+    width: 280px;
+    height: 320px;
+    background-color: #000;
+    border-radius: 30px;
+    float: inline-end;
+    margin-right: -150px;
+    margin-top: 10px;
+    background-image: url(/assets/images/pic3.jpg);  
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    
+}
+.pic3:hover:hover{
+    transform: scale(1.04);
 }
 .service{
     width: 80%;

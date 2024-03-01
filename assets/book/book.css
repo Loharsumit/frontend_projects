@@ -80,9 +80,15 @@
 }
 .heading{
     /* font-weight: bolder; */
+	/* font-family: Georgia, 'Times New Roman', Times, serif; */
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
     color: #212121;
+	text-decoration: underline;
+	padding: 20px;
+}
+.heading h1{
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .service{
     width: 80%;
@@ -94,7 +100,12 @@
 .options{
     justify-content: space-around;
 	align-items: center;
-    padding: 20px;
+    padding: 0;
+	border:1px solid #000;
+	border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
     transition-property: transform;
     transition-duration: 0.3s;
     transition-timing-function: ease;
@@ -102,25 +113,34 @@
     
 }
 .options:hover{
-    transform: translateY(-15px);
+	transform: translateY(-15px);
+	box-shadow: 0 0 8px rgba(255, 255, 255, 1);
 }
 .head{
 	width: 300px;
-    /* background-color: orangered; */
-    box-shadow: 0 0 8px rgba(255, 255, 255, 1);
+    background-color: #ffffff82;
+    /* box-shadow: 0 0 8px rgba(255, 255, 255, 1); */
     text-align: center;
     padding: 20px;
-    border-top-left-radius: 30px;
+	margin-left: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+	
 }
 .containts{
-    box-shadow: 0 0 8px rgba(255, 255, 255, 1);
-    background-color: #fff;
+    /* box-shadow: 0 0 8px rgba(255, 255, 255, 1); */
+    background-color: #b4844dc1;
     color: #212121;
-    opacity: 0.5;
-    width: 300px;
-    height: 200px; 
+    /* opacity: 0.5; */
+    width: 340px;
+    height: 150px; 
     font-weight: 600;
-    border-bottom-right-radius: 30px;
+    border-top-style:ridge;
+	border-right: 4px solid #000;
+	border-bottom: 1px solid #000;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
     text-align: center;
     padding: 20px;
 }
@@ -128,6 +148,9 @@
       font-weight: bolder;
       font-size: 30px;
       color: #000;
+}
+.containts a{
+	color: #fff;
 }
 
 .footer{

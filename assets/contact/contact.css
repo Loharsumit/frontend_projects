@@ -80,7 +80,14 @@
 
 
 /* <---------------------------------------> */
-
+.contactInfo{
+    width: 600px;
+    background-color: #ffffff74;
+    margin-left: 450px;
+    border-radius: 60px;
+    margin-bottom: 60px;
+    margin-top: 100px;
+}
 .contactInfo h3{
 	font-size: 40px;
     font-weight: bold;
@@ -167,7 +174,7 @@
 
 input{
     width: 320px;
-    background-color: #67cefdd9;
+    background-color: #ffffffa4;
     border-style: none;
     border-bottom: 2px solid #676666;
     border-radius: 7px;
@@ -184,7 +191,7 @@ input:hover{
     transform: translateY(-5px);
 }
 textarea{
-    background-color: #67cefdd9;
+    background-color: #ffffffa4;
     border-style: none;
     border-bottom: 2px solid #676666;
     border-radius: 7px;
