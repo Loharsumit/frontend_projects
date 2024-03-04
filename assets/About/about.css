@@ -357,3 +357,26 @@ button:hover{
 #footer footeritems{
 	padding-top: 40px;
 }
+#logo{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-left: 60px;
+    /* padding: 5px; */
+	outline: 0.1rem solid #000;
+	outline-offset: -1.5px;
+}
+#logo:hover{
+    background-color: #fff;
+    /* box-shadow: 0 0 20px rgb(255, 253, 253);
+    transform: translateY(-2px); */
+
+	outline-color: #fff;
+}
+.icons{
+	width: 280px;
+	margin-left: 40%;
+    margin-bottom: 20px;
+}
