@@ -4,7 +4,14 @@
 	box-sizing: border-box;
 	list-style: none;
 	font-family: 'Poppins', sans-serif;
+  
+}
 
+body{
+	background-image: url(/assets/images/img4.jpg);  
+	background-position: center; 
+	background-size: cover; 
+	background-repeat: no-repeat;
 }
 .navbar{
 	width: 100%;
@@ -82,6 +89,9 @@
     text-align: center;
     margin-top: 50px;
     color: #212121;
+}
+.heading h1{
+	font-size: 100px;
 }
 .service{
     width: 80%;
@@ -183,4 +193,122 @@
 	width: 280px;
 	margin-left: 40%;
     margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+	.navbar{
+		width: 100%;
+		height: 120px;
+		margin: auto;
+	}
+
+	.menu ul li a{
+		padding: 2px 3px;
+		letter-spacing: 1px;
+		font-size: 13px;
+	}
+	.signup a{
+		font-size: 13px;
+		font-weight: 200;
+		border-radius: 7px;
+		padding: 1px 10px;
+		border: 1px solid #fff;
+	}
+	
+	.heading{
+		margin-top: 80px;
+		margin-bottom: 60px;
+		color: #212121;
+	}
+
+	.heading h1{
+		font-size: 30px;
+		font-weight: bold;
+	}
+
+	.service{
+		width: 80%;
+		padding-bottom: 95px;
+	}
+
+	.options{
+		padding: 5px;		
+	}
+	.options:hover{
+		transform: translateY(-5px);
+	}
+	
+	.head{
+		padding: 10px;
+		border-top-left-radius: 10px;
+	}
+
+	#icon{
+		width: 40px; 
+		height: 40px;
+	}
+
+	.containts{
+		width: 90px;
+		height: 220px; 
+		border-bottom-right-radius: 10px;
+		text-align: center;
+		padding: 3px;
+	}
+
+	.containts p{
+		font-size: 10px;
+		
+	}
+	.containts a{
+		font-size: 5px;
+
+	}
+
+	.head h2{
+		  font-weight: bolder;
+		  font-size: 15px;
+		  color: #000;
+	}
+	
+	.footer{
+		width: 100%;
+		height: 270px;
+		position: relative;
+	}
+	
+	.footer a{
+		font-size: 10px;
+	}
+	
+	#footer{
+		margin: 10px;
+		padding-left: 10px;
+	}
+
+	#footer a{
+		padding: 5px;
+		justify-items: center;
+		justify-content: space-around;
+		align-items: center;
+	}
+	
+	#footer footeritems{
+		padding-top: 40px;
+	}
+	
+	#logo{
+		width: 20px;
+		height: 20px;
+		border-radius: 20px;
+		margin-left: 10px;
+	}
+	.icons{
+		width: 280px;
+		position: absolute;
+		top: 140px;
+		left: 1px;
+	}
+
 }
