@@ -83,13 +83,7 @@
 .contactInfo{
     margin-top: 50px;
 }
-.contactInfo h3{
-	font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 50px;
-    color: #212121;
-}
+
 .contactInfo h1{
 	font-size: 70px;
     font-weight: bold;
@@ -97,57 +91,7 @@
     /* margin-top: 50px; */
     color: #212121;
 }
-.service{
-    width: 80%;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-    margin: auto;
-    padding: 60px;
-}
-.options{
-    justify-content: space-around;
-	align-content: center;
-	align-items: center;
-    padding: 20px;
-    transition-property: transform;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-    
-}
-.options:hover{
-    transform: translateY(-15px);
-}
-.head{
-	width: 140px;
-    background-color: rgba(0, 174, 255, 0.852);
-    box-shadow: 0 0 8px rgba(255, 255, 255, 1);
-    text-align: center;
-    padding: 20px;
-	border-radius: 200px;
-    /* border-top-left-radius: 100px;
-	border-top-right-radius: 100px; */
-}
-.containts{
-    box-shadow: 0 0 8px rgb(4, 4, 4);
-    background-color: #4dc7fcd5;
-    color: #212121;
-    opacity: 1;
-    width: 300px;
-    height: 130px; 
-    font-weight: 600;
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-    border-top-right-radius: 40px;
-    text-align: center;
-    padding: 10px;
-}
-.containts h2{
-      font-weight: bolder;
-      font-size: 30px;
-      color: #000;
-}
+
 
 .contact{
     width: 400px;
@@ -166,6 +110,14 @@
     font-weight: bold;
     word-spacing: normal;
 }
+
+#boxHeading{
+    text-align: center; 
+    font-weight: bold; 
+    font-size: xx-large; 
+    padding: 10px;
+}
+
 #logo{
     width: 30px;
     height: 30px;
@@ -205,24 +157,8 @@ input:hover{
     box-shadow: 0 0 8px rgb(255, 145, 0);
     transform: translateY(-5px);
 }
-textarea{
-    color: #000;
-    font-weight: bold;
-    background-color: #ffffffd2;
-    border-style: none;
-    border-bottom: 3px solid #ff8800ec;
-    border-radius: 7px;
-    padding: 5px;
-    transition-property: transform;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-}
 
-textarea:hover{
-    box-shadow: 0 0 8px rgb(255, 145, 0);
-    transform: translateY(-5px);
-}
+
 button{
     width: 150px;
     background-color: #fff;
@@ -246,10 +182,6 @@ button:hover{
     box-shadow: 0 0 8px rgb(255, 145, 0);
     transform: translateY(-5px);
 }
-
-
-
-
 
 .footer{
 	width: 100%;
@@ -305,4 +237,173 @@ button:hover{
 	width: 280px;
 	margin-left: 40%;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar{
+		width: 100%;
+		height: 120px;
+		margin: auto;
+        position: relative;
+	}
+    .menu{
+        position: absolute;
+        left: -10px;
+    }
+    .logo h1{
+        position: absolute;
+        top: 2px;
+        left: 160px;
+    }
+
+    .signup{
+        position: absolute;
+        top: 70px;
+    }
+
+	.menu ul li a{
+		padding: 2px 3px;
+		letter-spacing: 1px;
+		font-size: 13px;
+        
+	}
+	.signup a{
+		font-size: 13px;
+		font-weight: 200;
+		border-radius: 7px;
+		padding: 1px 10px;
+		border: 1px solid #fff;
+	}
+    
+    .body{
+        width: 100%;
+        height: 80vh;
+    }
+    
+    
+    /* <---------------------------------------> */
+    .contactInfo{
+        margin-top: 100px;
+    }
+    
+    .contactInfo h1{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .contact{
+        width: 250px;
+        height: 300px;
+        border-radius: 30px;
+        padding: 10px;
+        margin: auto;
+        position: relative;
+    }
+    #table{
+        color: #000;   
+        font-weight: bold;
+        word-spacing: normal;
+        position: absolute;
+        top: 60px;
+        left: 30px;
+    }
+
+    #boxHeading{  
+        font-size: 18px; 
+        padding: 10px;
+        position: absolute;
+        top: -50px;
+        left: 30px;
+    }
+
+    .socialIcons{
+        position: absolute;
+        top: 250px;
+        left: 72px;
+    }
+
+    #logo1{
+        width: 20px;
+        height: 20px;
+        
+    }
+
+    #Forget{
+        width: 110px;
+        font-size: 12px;
+        position: absolute;
+        left: 90px;
+    }
+    #icontext{
+        width: 100px;
+        font-size: 11px;
+        font-weight: bold;
+        padding: 0px;
+        position: absolute;
+        top: 170px;
+        left: 50px;
+    }
+    input{
+        width: 200px;
+        font-weight: 700;
+        font-size: 13px;
+        border-radius: 7px;
+        padding: 2px;
+        transition-property: transform;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+        
+    }
+
+    label{
+         font-size: 14px;
+    }
+    button{
+        width: 60px;
+        font-size: 14px;
+        border-radius: 7px;
+        padding: 1px;
+        margin: 30px;
+    
+    }
+    
+    .footer{
+		width: 100%;
+		height: 270px;
+		position: relative;
+	}
+	
+	.footer a{
+		font-size: 10px;
+	}
+	
+	#footer{
+		margin: 10px;
+		padding-left: 10px;
+	}
+
+	#footer a{
+		padding: 5px;
+		justify-items: center;
+		justify-content: space-around;
+		align-items: center;
+	}
+	
+	#footer footeritems{
+		padding-top: 40px;
+	}
+	
+	#logo{
+		width: 20px;
+		height: 20px;
+		border-radius: 20px;
+		margin-left: 10px;
+	}
+	.icons{
+		width: 280px;
+		position: absolute;
+		top: 140px;
+		left: -100px;
+	} 
 }

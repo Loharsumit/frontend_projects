@@ -224,10 +224,24 @@
 
 	.navbar{
 		width: 100%;
-		height: auto;
-		background-color: #212121;
-		
+		height: 120px;
+		margin: auto;
+        position: relative;
 	}
+    .menu{
+        position: absolute;
+        left: -10px;
+    }
+    .logo h1{
+        position: absolute;
+        top: 2px;
+        left: 160px;
+    }
+
+    .signup{
+        position: absolute;
+        top: 70px;
+    }
 	.menu ul li a{
 		padding: 2px 3px;
 		letter-spacing: 1px;

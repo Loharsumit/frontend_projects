@@ -117,6 +117,12 @@
      margin: 30px;
      padding: 20px;
 }
+
+#icon {
+    width: 60px; 
+    height: 60px; 
+    padding: 5px;
+}
 .aboutList h2{
     color: orangered;
     padding: 10px;
@@ -195,134 +201,6 @@
 .pic3:hover:hover{
     transform: scale(1.04);
 }
-.service{
-    width: 80%;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-    margin: auto;
-    padding: 60px;
-}
-.options{
-    justify-content: space-around;
-	align-content: center;
-	align-items: center;
-    padding: 20px;
-    transition-property: transform;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-    
-}
-.options:hover{
-    transform: translateY(-15px);
-}
-.head{
-	width: 140px;
-    background-color: rgba(0, 174, 255, 0.852);
-    box-shadow: 0 0 8px rgba(255, 255, 255, 1);
-    text-align: center;
-    padding: 20px;
-	border-radius: 200px;
-    /* border-top-left-radius: 100px;
-	border-top-right-radius: 100px; */
-}
-.containts{
-    box-shadow: 0 0 8px rgb(4, 4, 4);
-    background-color: #4dc7fcd5;
-    color: #212121;
-    opacity: 1;
-    width: 300px;
-    height: 130px; 
-    font-weight: 600;
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-    border-top-right-radius: 40px;
-    text-align: center;
-    padding: 10px;
-}
-.containts h2{
-      font-weight: bolder;
-      font-size: 30px;
-      color: #000;
-}
-
-.contact{
-    width: 400px;
-    height: auto;
-    background-color: #8dd9fad5;
-    border-radius: 30px;
-    padding: 10px;
-	margin: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-}
-#table{
-    color: #454444;   
-    font-weight: bold;
-    word-spacing: normal;
-}
-
-input{
-    width: 320px;
-    background-color: #67cefdd9;
-    border-style: none;
-    border-bottom: 2px solid #676666;
-    border-radius: 7px;
-    padding: 5px;
-    color: #000;
-    transition-property: transform;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-    
-}
-input:hover{
-    box-shadow: 0 0 8px rgba(255, 255, 255, 1);
-    transform: translateY(-5px);
-}
-textarea{
-    background-color: #67cefdd9;
-    border-style: none;
-    border-bottom: 2px solid #676666;
-    border-radius: 7px;
-    padding: 5px;
-    transition-property: transform;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-}
-textarea:hover{
-    box-shadow: 0 0 8px rgba(255, 255, 255, 1);
-    transform: translateY(-5px);
-}
-button{
-    background-color: #4dc7fc9d;
-    /* border-radius: 0.1px solid black; */
-    /* border-style: none; */
-    border-radius: 10px;
-    padding: 8px;
-    margin: 10px;
-    font-weight: lighter;
-    
-    transition-property: transform;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-
-}
-button:hover{
-    background-color: #050606a1;
-    color: #fff;
-    box-shadow: 0 0 8px rgba(255, 255, 255, 1);
-    transform: translateY(-5px);
-}
-
-
-
-
 
 .footer{
 	width: 100%;
@@ -379,4 +257,174 @@ button:hover{
 	width: 280px;
 	margin-left: 40%;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar{
+		width: 100%;
+		height: 120px;
+		margin: auto;
+        position: relative;
+	}
+    .menu{
+        position: absolute;
+        left: -10px;
+    }
+    .logo h1{
+        position: absolute;
+        top: 2px;
+        left: 160px;
+    }
+
+    .signup{
+        position: absolute;
+        top: 70px;
+    }
+
+	.menu ul li a{
+		padding: 2px 3px;
+		letter-spacing: 1px;
+		font-size: 13px;
+	}
+	.signup a{
+		font-size: 13px;
+		font-weight: 200;
+		border-radius: 7px;
+		padding: 1px 10px;
+		border: 1px solid #fff;
+	}
+    
+    .body{
+        width: 100%;
+        height: auto;   
+    }
+    
+    /* <---------------------------------------> */
+    .headline{
+        width: 100%;
+        height: 200px;
+         padding: 80px;
+        
+    }
+
+    .section-wrapper{
+        position: relative;
+    }
+
+    .headline h3{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .aboutMain{
+        margin: 15px;
+        padding: 10px;
+    }
+    .aboutMain h2{
+        font-size: 15px;
+    }
+    .aboutMain h1{
+        width: 400px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .aboutMain p{
+        width: 360px;
+        font-size: 14px;
+    }
+    .aboutList{
+        width: 360px;
+        margin-top: 240px;
+         padding: 1px;
+    }
+    #icon {
+        width: 30px; 
+        height: 30px; 
+        padding: 5px;
+    }
+    .aboutList h2{
+        padding: 0;
+        font-size: 15px;
+    }
+    .aboutList p{
+        font-size: 12px;
+    }
+
+
+    .img-box{
+        padding: 30px;
+        margin: 50px;
+        position: relative;
+        position: absolute;
+        top: 170px;
+        left: 20px;
+    }
+    .pic1{
+        width: 140px;
+        height: 100px;
+        border-radius: 15px;
+        position: absolute;
+        top: 1px;
+        left: 1px;
+
+    }
+    
+    .pic2{
+        width: 140px;
+        height: 100px;
+        background-color: #000;
+        border-radius: 15px;
+        position: absolute;
+        top: -56px;
+        left: -54px;
+    }
+    
+    .pic3{
+        width: 120px;
+        height: 170px;
+        background-color: #000;
+        border-radius: 15px;
+        position: absolute;
+        top: -30px;
+        left: 150px;
+       
+    }
+   
+    .footer{
+		width: 100%;
+		height: 270px;
+		position: relative;
+	}
+	
+	.footer a{
+		font-size: 10px;
+	}
+	
+	#footer{
+		margin: 10px;
+		padding-left: 10px;
+	}
+
+	#footer a{
+		padding: 5px;
+		justify-items: center;
+		justify-content: space-around;
+		align-items: center;
+	}
+	
+	#footer footeritems{
+		padding-top: 40px;
+	}
+	
+	#logo{
+		width: 20px;
+		height: 20px;
+		border-radius: 20px;
+		margin-left: 10px;
+	}
+	.icons{
+		width: 280px;
+		position: absolute;
+		top: 140px;
+		left: 1px;
+	}  
 }

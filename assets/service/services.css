@@ -120,6 +120,10 @@ body{
     padding: 10px;
     border-top-left-radius: 40px;
 }
+.head img{
+	width: 100px;
+	height: 100px;
+}
 .containts{
     box-shadow: 0 0 8px rgba(255, 255, 255, 1);
     background-color: #fff;
@@ -201,7 +205,22 @@ body{
 		width: 100%;
 		height: 120px;
 		margin: auto;
+        position: relative;
 	}
+    .menu{
+        position: absolute;
+        left: -10px;
+    }
+    .logo h1{
+        position: absolute;
+        top: 2px;
+        left: 160px;
+    }
+
+    .signup{
+        position: absolute;
+        top: 70px;
+    }
 
 	.menu ul li a{
 		padding: 2px 3px;
