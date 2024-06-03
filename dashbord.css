@@ -54,7 +54,7 @@
 }
 .signup a{
 	text-decoration: none;
-	/* color: #fff; */
+	color: #fff;
 	font-size: 18px;
 	font-weight: bold;
 	border-radius: 12px;
@@ -62,7 +62,7 @@
 	border: 2px solid #fff;
 }
 .signup a:hover{
-	/* background-color: #fff; */
+	background-color: #fff;
     color: #000;
 	transition: 0.3s;
 	transition-timing-function: ease;
@@ -73,7 +73,7 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(/assets/images/img1.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(/assets/images/dashbord.jpg);
 	background-position: center;
 	background-size: cover;
 }
